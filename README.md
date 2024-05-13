@@ -41,6 +41,10 @@ openssl dgst -sha256 -verify public_key.pem -signature signature.sha256 secret.t
 ```
 5. Modify the `secret.txt` file and verify the signature again. What happens?
 
+> [!TIP]
+> The following things aren't supposed to be particularly difficult. If you're having a rough time, come talk to me because you might be over-thinking something.
+> Also, definitely leverage libraries to take care of this for you, you should be more glueing libraries together than re-inventing any wheel. 😄
+
 #### Part 2: Code Implementation
 - [ ] Clone this repo and create a new branch off of `main` to work on.
 - [ ] Implement the missing parts of the `verify` command. 
